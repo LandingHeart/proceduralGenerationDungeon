@@ -33,7 +33,7 @@ public class CorridorFirstDungeonGenerator : SimpleDungeonGenerator
         floorPositions.UnionWith(roomPositions);
 
         tilemapVisualizer.PaintFloorTiles(floorPositions);
-        WallGenerator.CreateWall(floorPositions, tilemapVisualizer);
+        WallGenerator.CreateWalls(floorPositions, tilemapVisualizer);
 
     }
 
